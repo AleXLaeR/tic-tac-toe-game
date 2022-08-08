@@ -1,0 +1,64 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.hidden {
+    display: none !important;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(44, 41, 44);
+    background-image: url('/tic-tac-toe.png');
+    background-position: center;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    font: inherit;
+    padding: .5rem 1.5rem;
+    background-color: rgb(140, 0, 255);
+    border: 1px solid rgb(140, 0, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(79, 10, 190);
+    border-color: rgb(79, 10, 190);
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(140, 0, 255);
+}
+
+.btn-alt:hover {
+    background-color: rgb(245, 232, 255);
+    border-color: transparent;
+}
+
+#main-header {
+    text-align: center;
+    background: linear-gradient(
+         to top, #8c74e3, rgb(140, 0, 255)
+    );
+    color: white;
+    padding: 2rem 5%;
+}
+
+#name-button-container button {
+    margin: .75rem .5rem;
+    font-size: 1rem;
+}
